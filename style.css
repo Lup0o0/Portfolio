@@ -354,3 +354,34 @@ input:focus, textarea:focus { border-color: rgba(56, 189, 248, 0.65); box-shadow
     font-size: 0.82rem;
   }
 }
+
+/* Image d'en-tête de la veille technologique */
+.veille-cover {
+  margin: 0 0 34px;
+  overflow: hidden;
+  border-radius: 22px;
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  background: rgba(15, 23, 42, 0.72);
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.28);
+}
+
+.veille-cover img {
+  width: 100%;
+  height: 360px;
+  display: block;
+  object-fit: cover;
+}
+
+.veille-cover figcaption {
+  padding: 12px 16px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  border-top: 1px solid var(--border);
+  background: rgba(15, 23, 42, 0.82);
+}
+
+@media (max-width: 740px) {
+  .veille-cover img {
+    height: 240px;
+  }
+}
