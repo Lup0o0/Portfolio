@@ -1,0 +1,260 @@
+Crée un portfolio moderne, professionnel et responsive pour un étudiant en BTS SIO option SISR nommé Kévin.
+
+Objectif du site :
+Présenter mon profil, mes compétences techniques, mes projets scolaires/professionnels, ma veille technologique et mes moyens de contact. Le site doit avoir un rendu sérieux, propre et adapté à un étudiant en informatique qui cherche à valoriser son parcours pour un stage, une poursuite d’études ou une première expérience professionnelle.
+
+Style visuel :
+
+* Design moderne, sobre et professionnel.
+* Inspiration : portfolio tech / cybersécurité / infrastructure réseau.
+* Interface claire avec des cartes, des bordures arrondies, des ombres légères et une bonne hiérarchie visuelle.
+* Palette sombre ou semi-sombre avec accents bleus/cyan/violets, style informatique moderne.
+* Typographie lisible, titres visibles, espacements propres.
+* Site entièrement responsive desktop, tablette et mobile.
+* Ajouter des petites animations discrètes au survol des cartes et boutons.
+* Éviter un rendu trop chargé ou trop “template basique”.
+
+Structure du site :
+Créer une navigation fixe ou sticky en haut avec :
+
+* Accueil
+* Compétences
+* Projets
+* Veille Tech
+* Contact
+
+Page Accueil :
+Créer une section hero avec :
+Titre principal : “Kévin.”
+Sous-titre : “Étudiant en BTS SIO, option SISR”
+
+Texte court :
+“Spécialisé dans les infrastructures réseaux, la virtualisation, l’automatisation et la cybersécurité. Passionné par les systèmes d’information, les environnements techniques et les nouvelles technologies.”
+
+Ajouter deux boutons :
+
+* “Voir mes projets”
+* “Me contacter”
+
+Ajouter une section “Qui suis-je ?” avec ce texte :
+“Je m’appelle Kévin, j’ai 20 ans et je suis actuellement en BTS SIO option SISR. Je m’intéresse particulièrement aux systèmes, aux réseaux, à la cybersécurité, à la virtualisation et à l’automatisation. Mon objectif est de progresser chaque jour dans un environnement technique stimulant et de développer des compétences solides en infrastructure informatique.”
+
+Ajouter des cartes statistiques :
+
+* 20 ans
+* BTS SIO SISR
+* 3 projets majeurs
+* 1 stage professionnel
+
+Ajouter une section “Compétences principales” sous forme de cartes ou badges :
+
+* Windows & Windows Server
+* Réseaux : VLAN, DHCP, Cisco
+* Virtualisation : VMware
+* Infrastructure IT
+* Cybersécurité
+* Supervision
+* Sauvegarde & restauration
+
+Ajouter une section “Explorer mon portfolio” avec 4 cartes cliquables :
+
+1. Projets — “Découvrez mes projets scolaires et professionnels”
+2. Parcours — “Découvrez mon parcours en BTS SIO option SISR”
+3. Compétences — “Mes compétences techniques en systèmes et réseaux”
+4. Veille Tech — “Ma veille technologique sur les cartes graphiques, l’IA et les infrastructures”
+
+Page Compétences :
+Titre : “Compétences & Formation”
+Sous-titre : “Mon parcours académique et mes compétences techniques”
+
+Section “Formation BTS SIO” :
+Présenter le BTS SIO option SISR :
+“Le BTS SIO option SISR forme à l’installation, la configuration, la maintenance et la sécurisation des infrastructures systèmes et réseaux.”
+
+Ajouter une comparaison courte :
+
+* SLAM : développement, applications, bases de données
+* SISR : systèmes, réseaux, infrastructure, cybersécurité
+
+Section “Expérience professionnelle” :
+Créer une carte “Stage professionnel”
+
+Entreprise : HOME DRH
+
+Description :
+« Participation à des projets d'administration système, de gestion des utilisateurs et de déploiement de postes informatiques au sein de l'entreprise. »
+
+Missions réalisées :
+
+* Gestion des comptes utilisateurs et des droits dans Active Directory
+* Création et configuration de groupes de sécurité et accès aux ressources
+* Installation, configuration et intégration de postes Windows au domaine
+* Support utilisateur : réinitialisation de mots de passe, déblocage de comptes et assistance technique
+
+Section “Compétences techniques” :
+Afficher les compétences sous forme de badges ou cartes :
+
+* Windows
+* Windows Server
+* Linux
+* VMware
+* VLAN
+* DHCP
+* DNS
+* Cisco
+* Monitoring
+* Sauvegardes
+
+Page Projets :
+Titre : “Mes Projets”
+Sous-titre : “Découvrez mes réalisations académiques et professionnelles”
+
+Créer plusieurs cartes projets.
+
+Projet 1 :
+Titre : “AP1 - Infrastructure Réseaux Entreprise”
+Description :
+“Préconisation technique pour une infrastructure réseau fonctionnelle, sécurisée et adaptée aux besoins d’une entreprise.”
+Tags :
+Réseau, Sécurité, Infrastructure, VLAN
+
+Ajouter une section “Tableau de synthèse” avec un bouton :
+“Télécharger le tableau de synthèse”
+
+Prévoir un emplacement pour ajouter un fichier PDF ou Excel plus tard.
+
+Page Veille Tech :
+Titre : “Veille Informatique”
+Sous-titre : “L’impact de l’intelligence artificielle sur le matériel informatique et les infrastructures.”
+
+Créer une page article propre avec :
+
+* Date de dernière mise à jour
+* Introduction
+* Plusieurs sections
+* Cartes d’information
+* Images ou emplacements image
+* Conclusion
+
+Sujet de veille :
+“L’impact de l’intelligence artificielle sur le hardware”
+
+Introduction :
+Expliquer que l’intelligence artificielle transforme fortement les besoins matériels en informatique. Les usages liés à l’IA, comme l’entraînement de modèles, l’inférence locale, l’automatisation, l’analyse de données ou les assistants intelligents, demandent des composants plus puissants, plus spécialisés et mieux optimisés.
+
+Sections :
+
+1. Pourquoi cette veille ?
+   Expliquer que l’IA prend une place de plus en plus importante dans les systèmes d’information. Elle influence directement le choix du matériel informatique, que ce soit pour les postes de travail, les serveurs, les datacenters ou les infrastructures locales.
+
+Présenter les enjeux principaux :
+
+* Besoin de puissance de calcul
+* Augmentation de la consommation électrique
+* Besoin de mémoire vidéo et de mémoire vive
+* Importance du stockage rapide
+* Refroidissement plus exigeant
+* Évolution des processeurs, cartes graphiques et accélérateurs spécialisés
+
+2. Les composants les plus impactés par l’IA
+
+Créer plusieurs cartes ou blocs explicatifs :
+
+Carte 1 : “Cartes graphiques GPU”
+Expliquer que les GPU sont devenus essentiels pour l’IA grâce à leur capacité à effectuer de nombreux calculs en parallèle. Ils sont utilisés pour l’entraînement de modèles, l’inférence locale, la génération d’images, le traitement vidéo et les modèles de langage.
+
+Points à afficher :
+
+* Mémoire vidéo VRAM importante
+* Calcul parallèle
+* Accélération IA
+* Forte consommation électrique
+* Besoin de refroidissement adapté
+
+Carte 2 : “Processeurs CPU”
+Expliquer que les CPU restent importants pour la gestion du système, les traitements généraux, la virtualisation, les serveurs et certaines charges IA légères. Les processeurs modernes intègrent parfois des unités dédiées à l’IA.
+
+Points à afficher :
+
+* Nombre de cœurs
+* Fréquence
+* Virtualisation
+* Gestion des services
+* Optimisation énergétique
+
+Carte 3 : “Mémoire vive RAM”
+Expliquer que l’IA peut demander beaucoup de mémoire vive, notamment pour manipuler de gros volumes de données, faire tourner plusieurs services, virtualiser des machines ou utiliser des modèles localement.
+
+Points à afficher :
+
+* 32 Go minimum pour certains usages avancés
+* 64 Go ou plus pour les environnements lourds
+* Utilité en virtualisation
+* Impact sur la fluidité du système
+
+Carte 4 : “Stockage SSD”
+Expliquer que les modèles IA, les datasets, les machines virtuelles et les environnements de développement nécessitent un stockage rapide et fiable. Les SSD NVMe deviennent importants pour réduire les temps de chargement et améliorer les performances.
+
+Points à afficher :
+
+* Vitesse de lecture/écriture
+* Temps de chargement réduits
+* Stockage des modèles IA
+* Stockage des VM et sauvegardes
+* Importance de la fiabilité
+
+Carte 5 : “Alimentation et refroidissement”
+Expliquer que les composants utilisés pour l’IA peuvent consommer beaucoup d’énergie et produire beaucoup de chaleur. Il faut donc prévoir une alimentation adaptée, un bon airflow et un refroidissement efficace.
+
+Points à afficher :
+
+* Alimentation suffisamment puissante
+* Refroidissement CPU/GPU
+* Airflow du boîtier
+* Bruit et température
+* Stabilité sur de longues charges
+
+3. Impact sur les infrastructures informatiques
+
+Expliquer que l’IA ne concerne pas seulement les ordinateurs personnels. Elle impacte aussi les infrastructures professionnelles et les datacenters.
+
+Présenter les conséquences pour :
+
+* Les serveurs plus puissants
+* Les besoins en GPU dédiés
+* L’augmentation de la consommation électrique
+* Le besoin de stockage rapide
+* La supervision des températures et performances
+* La maintenance du matériel
+* La sécurité des données traitées par les modèles IA
+* Le réseau, notamment lors du transfert de gros volumes de données
+
+Ajouter un bloc “Exemple concret” :
+“Une entreprise qui souhaite utiliser une IA en local doit prévoir une machine adaptée avec un processeur performant, beaucoup de RAM, un GPU disposant de suffisamment de VRAM, un SSD rapide, une alimentation fiable et un système de refroidissement efficace.”
+
+4. Lien avec le BTS SIO SISR
+
+Expliquer que cette veille est directement liée au BTS SIO option SISR, car elle concerne l’évolution des infrastructures systèmes et réseaux.
+
+Développer les liens avec les compétences SISR :
+
+* Choisir du matériel adapté à un besoin professionnel
+* Comprendre les contraintes d’une infrastructure
+* Mettre en place des serveurs ou machines virtualisées
+* Superviser les performances et la disponibilité
+* Sécuriser les données utilisées par les outils IA
+* Anticiper les besoins réseau, stockage et sauvegarde
+* Conseiller une entreprise sur une solution technique cohérente
+
+Texte à intégrer :
+“Pour un étudiant en BTS SIO SISR, comprendre l’impact de l’IA sur le hardware permet de mieux analyser les besoins techniques d’une organisation. Cela aide à choisir les bons composants, prévoir les contraintes d’exploitation et proposer une infrastructure adaptée.”
+
+5. Conclusion
+
+Conclure en expliquant que l’intelligence artificielle modifie profondément les besoins matériels. Les composants doivent être plus puissants, plus rapides et mieux refroidis. Cette évolution pousse les professionnels IT à se tenir informés pour proposer des solutions fiables, performantes et adaptées aux usages actuels.
+
+Texte de conclusion :
+“L’IA a un impact direct sur le hardware. Elle augmente les besoins en puissance de calcul, en mémoire, en stockage et en énergie. Pour les professionnels de l’infrastructure, cette évolution impose une veille régulière afin de comprendre les nouvelles contraintes techniques et de concevoir des systèmes performants, sécurisés et durables.”
+
+Important :
+Ne pas inventer de fausses statistiques précises. Prévoir des blocs de contenu faciles à mettre à jour avec des sources fiables. Prévoir également un emplacement pour ajouter des sources, articles ou liens utilisés dans la veille technologique.

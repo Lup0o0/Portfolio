@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Kévin, étudiant en BTS SIO option SISR." />
+  <title>Portfolio Kévin | Compétences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-bg"></div>
+  <header class="navbar">
+    <a class="brand" href="index.html" aria-label="Accueil du portfolio">
+      <span class="brand-mark">K</span>
+      <span>Kévin</span>
+    </a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="index.html" class="">Accueil</a>
+<a href="competences.html" class="active">Compétences</a>
+<a href="projets.html" class="">Projets</a>
+<a href="veille.html" class="">Veille Tech</a>
+<a href="contact.html" class="">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="page-hero section reveal">
+      <p class="eyebrow">Page Compétences</p>
+      <h1>Compétences & Formation</h1>
+      <p>Mon parcours académique et mes compétences techniques.</p>
+    </section>
+
+    <section class="section" id="formation">
+      <div class="section-heading reveal">
+        <h2>Formation BTS SIO</h2>
+        <p class="eyebrow">École IPSSI</p>
+      </div>
+      <div class="two-col reveal">
+        <article class="glass-card">
+          <h3>BTS SIO option SISR</h3>
+          <p>
+            Le BTS SIO option SISR forme à l’installation, la configuration, la maintenance
+            et la sécurisation des infrastructures systèmes et réseaux.
+          </p>
+        </article>
+        <article class="compare-card">
+          <div>
+            <h4>SLAM</h4>
+            <p>Développement, applications, bases de données.</p>
+          </div>
+          <div>
+            <h4>SISR</h4>
+            <p>Systèmes, réseaux, infrastructure, cybersécurité.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading reveal">
+        <h2>Expérience professionnelle</h2>
+        <p class="eyebrow">Stage professionnel</p>
+      </div>
+      <article class="project-card large-card reveal">
+        <div class="project-top">
+          <div>
+            <p class="eyebrow">Entreprise</p>
+            <h3>HOME DRH</h3>
+          </div>
+          <span class="status-pill">Administration système</span>
+        </div>
+        <p>
+          Participation à des projets d'administration système, de gestion des utilisateurs
+          et de déploiement de postes informatiques au sein de l'entreprise.
+        </p>
+        <h4>Missions réalisées</h4>
+        <ul class="check-list">
+          <li>Gestion des comptes utilisateurs et des droits dans Active Directory.</li>
+          <li>Création et configuration de groupes de sécurité et accès aux ressources.</li>
+          <li>Installation, configuration et intégration de postes Windows au domaine.</li>
+          <li>Support utilisateur : réinitialisation de mots de passe, déblocage de comptes et assistance technique.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section" id="competences-techniques">
+      <div class="section-heading reveal">
+        <h2>Compétences techniques</h2>
+        <p>
+          Ce camembert présente mes compétences principales, classées du domaine le plus maîtrisé
+          au domaine le moins avancé.
+        </p>
+      </div>
+
+      <div class="skills-pie-layout reveal">
+        <article class="skills-pie-card">
+          <div class="skills-pie" role="img" aria-label="Camembert de répartition des compétences techniques : Windows 30%, Cisco 22%, DHCP 17%, VLAN 13%, VMware 10%, Windows Server 8%.">
+            <span class="skills-pie-center">Compétences</span>
+          </div>
+        </article>
+
+        <article class="skills-pie-card">
+          <ul class="skills-legend" aria-label="Légende du camembert des compétences">
+            <li>
+              <span class="legend-color legend-windows" aria-hidden="true"></span>
+              <span class="legend-name">Windows</span>
+            </li>
+            <li>
+              <span class="legend-color legend-cisco" aria-hidden="true"></span>
+              <span class="legend-name">Cisco</span>
+            </li>
+            <li>
+              <span class="legend-color legend-dhcp" aria-hidden="true"></span>
+              <span class="legend-name">DHCP</span>
+            </li>
+            <li>
+              <span class="legend-color legend-vlan" aria-hidden="true"></span>
+              <span class="legend-name">VLAN</span>
+            </li>
+            <li>
+              <span class="legend-color legend-vmware" aria-hidden="true"></span>
+              <span class="legend-name">VMware</span>
+            </li>
+            <li>
+              <span class="legend-color legend-windows-server" aria-hidden="true"></span>
+              <span class="legend-name">Windows Server</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Kévin.</strong>
+      <p>BTS SIO - Infrastructure & Réseaux</p>
+    </div>
+    <a href="#top" class="footer-link">Retour en haut ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

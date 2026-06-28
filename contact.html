@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Kévin, étudiant en BTS SIO option SISR." />
+  <title>Portfolio Kévin | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-bg"></div>
+  <header class="navbar">
+    <a class="brand" href="index.html" aria-label="Accueil du portfolio">
+      <span class="brand-mark">K</span>
+      <span>Kévin</span>
+    </a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="index.html" class="">Accueil</a>
+<a href="competences.html" class="">Compétences</a>
+<a href="projets.html" class="">Projets</a>
+<a href="veille.html" class="">Veille Tech</a>
+<a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="page-hero section reveal">
+      <h1>Me contacter</h1>
+    </section>
+
+    <section class="section contact-grid">
+      <article class="glass-card reveal">
+        <h2>Coordonnées</h2>
+        <div class="contact-list">
+          <a href="mailto:kevin.barbou1377@gmail.com">kevin.barbou1377@gmail.com</a>
+          <a href="https://www.linkedin.com/in/kévin-barbou-9b9ab1371/" target="_blank"> LinkedIn</a>
+          <a href="https://github.com/Lup0o0" target="_blank">GitHub</a>
+          <a href="#">CV — à ajouter</a>
+        </div>
+      </article>
+
+      <form class="contact-form reveal" action="mailto:kevin.barbou1377@gmail.com" method="post" enctype="text/plain">
+        <label>Nom<input type="text" name="nom" placeholder="Votre nom" /></label>
+        <label>Email<input type="email" name="email" placeholder="votre.email@example.com" /></label>
+        <label>Message<textarea name="message" rows="6" placeholder="Votre message"></textarea></label>
+        <button class="btn btn-primary" type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Kévin.</strong>
+      <p>BTS SIO - Infrastructure & Réseaux</p>
+    </div>
+    <a href="#top" class="footer-link">Retour en haut ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

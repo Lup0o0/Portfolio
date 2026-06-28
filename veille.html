@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Kévin, étudiant en BTS SIO option SISR." />
+  <title>Portfolio Kévin | Veille Tech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-bg"></div>
+  <header class="navbar">
+    <a class="brand" href="index.html" aria-label="Accueil du portfolio">
+      <span class="brand-mark">K</span>
+      <span>Kévin</span>
+    </a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="index.html" class="">Accueil</a>
+<a href="competences.html" class="">Compétences</a>
+<a href="projets.html" class="">Projets</a>
+<a href="veille.html" class="active">Veille Tech</a>
+<a href="contact.html" class="">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="page-hero section reveal">
+      <p class="eyebrow">Page Veille Tech</p>
+      <h1>Veille Informatique</h1>
+      <p>L’impact de l’intelligence artificielle sur le matériel informatique et les infrastructures.</p>
+      <span class="date-pill">Dernière mise à jour : à compléter</span>
+    </section>
+
+    <section class="section article-layout">
+      <article class="article-card reveal">
+        <div class="image-placeholder"><span>Image / schéma à ajouter</span></div>
+
+        <h2>L’impact de l’intelligence artificielle sur le hardware</h2>
+        <p>
+          L’intelligence artificielle transforme fortement les besoins matériels en informatique.
+          Les usages liés à l’IA, comme l’entraînement de modèles, l’inférence locale,
+          l’automatisation, l’analyse de données ou les assistants intelligents, demandent
+          des composants plus puissants, plus spécialisés et mieux optimisés.
+        </p>
+
+        <h2>1. Pourquoi cette veille ?</h2>
+        <p>
+          L’IA prend une place de plus en plus importante dans les systèmes d’information.
+          Elle influence directement le choix du matériel informatique, que ce soit pour les postes
+          de travail, les serveurs, les datacenters ou les infrastructures locales.
+        </p>
+        <div class="info-grid">
+          <div>Besoin de puissance de calcul</div>
+          <div>Augmentation de la consommation électrique</div>
+          <div>Besoin de mémoire vidéo et de mémoire vive</div>
+          <div>Importance du stockage rapide</div>
+          <div>Refroidissement plus exigeant</div>
+          <div>Évolution des CPU, GPU et accélérateurs spécialisés</div>
+        </div>
+
+        <h2>2. Les composants les plus impactés par l’IA</h2>
+        <div class="component-grid">
+          <section class="component-card">
+            <h3>Cartes graphiques GPU</h3>
+            <p>
+              Les GPU sont devenus essentiels pour l’IA grâce à leur capacité à effectuer de nombreux calculs en parallèle.
+              Ils sont utilisés pour l’entraînement de modèles, l’inférence locale, la génération d’images,
+              le traitement vidéo et les modèles de langage.
+            </p>
+            <ul><li>Mémoire vidéo VRAM importante</li><li>Calcul parallèle</li><li>Accélération IA</li><li>Forte consommation électrique</li><li>Besoin de refroidissement adapté</li></ul>
+          </section>
+          <section class="component-card">
+            <h3>Processeurs CPU</h3>
+            <p>
+              Les CPU restent importants pour la gestion du système, les traitements généraux,
+              la virtualisation, les serveurs et certaines charges IA légères.
+            </p>
+            <ul><li>Nombre de cœurs</li><li>Fréquence</li><li>Virtualisation</li><li>Gestion des services</li><li>Optimisation énergétique</li></ul>
+          </section>
+          <section class="component-card">
+            <h3>Mémoire vive RAM</h3>
+            <p>
+              L’IA peut demander beaucoup de mémoire vive, notamment pour manipuler de gros volumes de données,
+              faire tourner plusieurs services, virtualiser des machines ou utiliser des modèles localement.
+            </p>
+            <ul><li>32 Go minimum pour certains usages avancés</li><li>64 Go ou plus pour les environnements lourds</li><li>Utilité en virtualisation</li><li>Impact sur la fluidité du système</li></ul>
+          </section>
+          <section class="component-card">
+            <h3>Stockage SSD</h3>
+            <p>
+              Les modèles IA, les datasets, les machines virtuelles et les environnements de développement
+              nécessitent un stockage rapide et fiable. Les SSD NVMe deviennent importants pour réduire les temps de chargement.
+            </p>
+            <ul><li>Vitesse de lecture/écriture</li><li>Temps de chargement réduits</li><li>Stockage des modèles IA</li><li>Stockage des VM et sauvegardes</li><li>Importance de la fiabilité</li></ul>
+          </section>
+          <section class="component-card full-width">
+            <h3>Alimentation et refroidissement</h3>
+            <p>
+              Les composants utilisés pour l’IA peuvent consommer beaucoup d’énergie et produire beaucoup de chaleur.
+              Il faut donc prévoir une alimentation adaptée, un bon airflow et un refroidissement efficace.
+            </p>
+            <ul><li>Alimentation suffisamment puissante</li><li>Refroidissement CPU/GPU</li><li>Airflow du boîtier</li><li>Bruit et température</li><li>Stabilité sur de longues charges</li></ul>
+          </section>
+        </div>
+
+        <h2>3. Impact sur les infrastructures informatiques</h2>
+        <p>
+          L’IA ne concerne pas seulement les ordinateurs personnels. Elle impacte aussi les infrastructures professionnelles et les datacenters.
+        </p>
+        <ul class="check-list">
+          <li>Serveurs plus puissants et besoins en GPU dédiés.</li>
+          <li>Augmentation de la consommation électrique.</li>
+          <li>Besoin de stockage rapide.</li>
+          <li>Supervision des températures et performances.</li>
+          <li>Maintenance du matériel.</li>
+          <li>Sécurité des données traitées par les modèles IA.</li>
+          <li>Réseau dimensionné pour le transfert de gros volumes de données.</li>
+        </ul>
+        <blockquote>
+          <strong>Exemple concret :</strong> Une entreprise qui souhaite utiliser une IA en local doit prévoir
+          une machine adaptée avec un processeur performant, beaucoup de RAM, un GPU disposant de suffisamment
+          de VRAM, un SSD rapide, une alimentation fiable et un système de refroidissement efficace.
+        </blockquote>
+
+        <h2>4. Lien avec le BTS SIO SISR</h2>
+        <p>
+          Cette veille est directement liée au BTS SIO option SISR, car elle concerne l’évolution des infrastructures systèmes et réseaux.
+        </p>
+        <ul class="check-list">
+          <li>Choisir du matériel adapté à un besoin professionnel.</li>
+          <li>Comprendre les contraintes d’une infrastructure.</li>
+          <li>Mettre en place des serveurs ou machines virtualisées.</li>
+          <li>Superviser les performances et la disponibilité.</li>
+          <li>Sécuriser les données utilisées par les outils IA.</li>
+          <li>Anticiper les besoins réseau, stockage et sauvegarde.</li>
+          <li>Conseiller une entreprise sur une solution technique cohérente.</li>
+        </ul>
+        <p>
+          Pour un étudiant en BTS SIO SISR, comprendre l’impact de l’IA sur le hardware permet de mieux analyser
+          les besoins techniques d’une organisation. Cela aide à choisir les bons composants, prévoir les contraintes
+          d’exploitation et proposer une infrastructure adaptée.
+        </p>
+
+        <h2>5. Conclusion</h2>
+        <p>
+          L’IA a un impact direct sur le hardware. Elle augmente les besoins en puissance de calcul, en mémoire,
+          en stockage et en énergie. Pour les professionnels de l’infrastructure, cette évolution impose une veille
+          régulière afin de comprendre les nouvelles contraintes techniques et de concevoir des systèmes performants,
+          sécurisés et durables.
+        </p>
+
+        <section class="sources-box">
+          <h2>Sources à compléter</h2>
+          <p>Ajouter ici les articles, documentations constructeur, communiqués ou ressources utilisées pour maintenir la veille technologique.</p>
+          <ul><li><a href="#">Source 1 — à ajouter</a></li><li><a href="#">Source 2 — à ajouter</a></li><li><a href="#">Source 3 — à ajouter</a></li></ul>
+        </section>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Kévin.</strong>
+      <p>BTS SIO - Infrastructure & Réseaux</p>
+    </div>
+    <a href="#top" class="footer-link">Retour en haut ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Emplacement prévu pour le tableau de synthèse.
+
+Remplace ce fichier par ton vrai document :
+- tableau-synthese.pdf
+- tableau-synthese.xlsx
+- ou un autre format demandé.
+
+Ensuite, modifie le lien dans projets.html si nécessaire.
